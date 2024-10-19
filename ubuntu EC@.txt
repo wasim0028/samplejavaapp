@@ -1,0 +1,5 @@
+1. lsblk ---> to see volume is add or not. 
+2. sudo file -s /dev/xvda ---> to check data present in volume.
+3. sudo mkfs -t ext4 /dev/xvdf  ---> to format volume
+
+4. sudo mount /dev/xvdf dirname
